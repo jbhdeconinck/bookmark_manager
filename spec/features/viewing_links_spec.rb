@@ -1,4 +1,4 @@
-require './app/model/link'
+require './app/models/link'
 
 feature "Viewing links" do
 
