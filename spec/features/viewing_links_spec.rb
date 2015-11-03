@@ -1,3 +1,5 @@
+require './app/model/link'
+
 feature "Viewing links" do
 
   background do
