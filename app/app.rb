@@ -4,7 +4,7 @@ require_relative 'models/link'
 ENV["RACK_ENV"] ||= "development"
 
 class BookmarkManager < Sinatra::Base
-  enable :sessions
+
   set :views, proc {File.join(root, '..', 'views')}
 
   get '/links' do
